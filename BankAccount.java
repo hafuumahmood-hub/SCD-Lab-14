@@ -3,6 +3,8 @@ public class BankAccount {
     private String ownerName;
     private double balance;
     private boolean active;
+    //adding new variable now
+    private int newvariable;
 
     public BankAccount(String ownerName, double initialBalance) {
         if (ownerName == null || ownerName.isEmpty()) {
